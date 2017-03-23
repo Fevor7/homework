@@ -14,8 +14,8 @@ public class Array {
 			Vvod.prntMenu();
 			switch (Vvod.csn()) {
 			case 1: { System.out.println ("¬ведите новый эемент массива: " ); mas = Work.adb(mas, Vvod.csn2()); break;}
-			case 2:{  mas=Work.sort2(mas); break;}
-			case 3:{  mas=Work.sort(mas); break;}	
+			case 2:{  mas=Work.sort2(mas); Vvod.prnt(mas); break;}
+			case 3:{  mas=Work.sort(mas);  Vvod.prnt(mas); break;}	
 			case 4:{  System.out.println ("максимальный элемент маccива: "+Work.maxEl(mas)); break;}	
 			case 5:{  System.out.println ("минимальный элемент маccива: "+Work.minEl(mas)); break; }	
 			case 6:{ Vvod.prnt(mas); break;}	
