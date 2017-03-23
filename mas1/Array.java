@@ -11,6 +11,7 @@ public class Array {
 		System.out.println ("¬веденный ¬ами массив: ");
 		Vvod.prnt(mas);
 		do {
+			 int b=3; 
 			Vvod.prntMenu();
 			switch (Vvod.csn()) {
 			case 1: { System.out.println ("¬ведите новый эемент массива: " ); mas = Work.adb(mas, Vvod.csn2()); break;}
